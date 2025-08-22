@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - PayDaily Payment Gateway</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2><img src="images/logo.png" width="150"></h2>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="index.html#services" class="nav-link">Services</a>
+                <a href="pricing.html" class="nav-link">Pricing</a>
+                <a href="about.html" class="nav-link">About Us</a>
+                <a href="contact.html" class="nav-link active">Contact</a>
+                <a href="#" class="nav-link btn-primary">Get Started</a>
+            </div>
+            <div class="nav-toggle" id="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Contact PayDaily</h1>
+            <p>Get in touch with our team. We're here to help you succeed with your payment processing needs.</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="content-section">
+        <div class="container">
+            <!-- Contact Form -->
+            <form class="contact-form" id="contact-form">
+                <h2 style="text-align: center; margin-bottom: 2rem; color: #1f2937;">Send us a Message</h2>
+                
+                <div class="form-group">
+                    <label for="name">Full Name *</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">Email Address *</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="company">Company Name</label>
+                    <input type="text" id="company" name="company">
+                </div>
+                
+                <div class="form-group">
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" id="phone" name="phone">
+                </div>
+                
+                <div class="form-group">
+                    <label for="inquiry-type">Inquiry Type *</label>
+                    <select id="inquiry-type" name="inquiry-type" required>
+                        <option value="">Select inquiry type</option>
+                        <option value="sales">Sales Inquiry</option>
+                        <option value="support">Technical Support</option>
+                        <option value="partnership">Partnership</option>
+                        <option value="billing">Billing Question</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+                
+               
+                <div class="form-group">
+                    <label for="message">Message *</label>
+                    <textarea id="message" name="message" placeholder="Tell us about your business and payment processing needs..." required></textarea>
+                </div>
+                
+                <button type="submit" class="btn btn-primary" style="width: 100%;">Send Message</button>
+            </form>
+
+            <!-- Contact Information -->
+            <div class="contact-info">
+                <div class="contact-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <h3>Headquarters</h3>
+                    <p>123 Anna Street<br>chrompet<br>Chennai</p>
+                </div>
+                
+                <div class="contact-item">
+                    <i class="fas fa-phone"></i>
+                    <h3>Phone Support</h3>
+                    <p>Sales: +1 (555) 123-4567<br>Support: +1 (555) 123-4568<br>24/7 Emergency: +1 (555) 123-4569</p>
+                </div>
+                
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <h3>Email Support</h3>
+                    <p>Sales: sales@paydaily.com<br>Support: support@paydaily.com<br>Partnerships: partners@paydaily.com</p>
+                </div>
+                
+                <div class="contact-item">
+                    <i class="fas fa-clock"></i>
+                    <h3>Business Hours</h3>
+                    <p>Sales: Mon-Fri 9AM-6PM PST<br>Support: 24/7/365<br>Emergency: 24/7/365</p>
+                </div>
+            </div>
+
+           
+            <!-- Support Resources -->
+            <div class="api-section">
+                <h2>Support Resources</h2>
+                <div class="feature-list">
+                    <div class="feature-list-item">
+                        <h4><i class="fas fa-book" style="color: #2563eb; margin-right: 0.5rem;"></i>Documentation</h4>
+                        <p>Comprehensive API documentation, integration guides, and best practices for developers.</p>
+                        <a href="#" class="btn btn-outline" style="margin-top: 1rem;">View Docs</a>
+                    </div>
+                    <div class="feature-list-item">
+                        <h4><i class="fas fa-question-circle" style="color: #dc2626; margin-right: 0.5rem;"></i>Help Center</h4>
+                        <p>Find answers to common questions, troubleshooting guides, and step-by-step tutorials.</p>
+                        <a href="#" class="btn btn-outline" style="margin-top: 1rem;">Get Help</a>
+                    </div>
+                    <div class="feature-list-item">
+                        <h4><i class="fas fa-comments" style="color: #10b981; margin-right: 0.5rem;"></i>Community Forum</h4>
+                        <p>Connect with other developers, share experiences, and get community support.</p>
+                        <a href="#" class="btn btn-outline" style="margin-top: 1rem;">Join Forum</a>
+                    </div>
+                    <div class="feature-list-item">
+                        <h4><i class="fas fa-chart-line" style="color: #f59e0b; margin-right: 0.5rem;"></i>Status Page</h4>
+                        <p>Real-time system status, maintenance schedules, and incident reports.</p>
+                        <a href="#" class="btn btn-outline" style="margin-top: 1rem;">Check Status</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Enterprise Support -->
+            <div class="api-section">
+                <h2>Enterprise Support</h2>
+                <p>For enterprise clients processing over $1M monthly, we offer dedicated support services:</p>
+                
+                <div class="feature-list">
+                    <div class="feature-list-item">
+                        <h4>Dedicated Account Manager</h4>
+                        <p>Personal point of contact for all your business needs, strategic planning, and growth support.</p>
+                    </div>
+                    <div class="feature-list-item">
+                        <h4>Priority Technical Support</h4>
+                        <p>Direct access to senior engineers with guaranteed response times and escalation procedures.</p>
+                    </div>
+                    <div class="feature-list-item">
+                        <h4>Custom Integration Support</h4>
+                        <p>Hands-on assistance with complex integrations, custom development, and technical architecture.</p>
+                    </div>
+                    <div class="feature-list-item">
+                        <h4>Business Intelligence</h4>
+                        <p>Advanced analytics, custom reporting, and strategic insights to optimize your payment performance.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- SLA Information -->
+            <div class="api-section">
+                <h2>Service Level Agreements</h2>
+                <div class="feature-list">
+                    <div class="feature-list-item">
+                        <h4>Response Times</h4>
+                        <p>Critical: 15 minutes<br>High: 2 hours<br>Medium: 8 hours<br>Low: 24 hours</p>
+                    </div>
+                    <div class="feature-list-item">
+                        <h4>Platform Uptime</h4>
+                        <p>99.99% uptime guarantee with automatic failover and redundancy across multiple data centers.</p>
+                    </div>
+                    <div class="feature-list-item">
+                        <h4>Security Standards</h4>
+                        <p>PCI DSS Level 1, SOC 2 Type II, ISO 27001 certified with regular security audits and penetration testing.</p>
+                    </div>
+                    <div class="feature-list-item">
+                        <h4>Compliance Support</h4>
+                        <p>Assistance with regulatory compliance, audit support, and documentation for various jurisdictions.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>PayDaily</h3>
+                    <p>Your trusted payment gateway partner for secure, fast, and reliable payment processing worldwide.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="payin.html">PayIn API</a></li>
+                        <li><a href="payout.html">PayOut API</a></li>
+                        <li><a href="qr-codes.html">Static QR</a></li>
+                        <li><a href="pricing.html">Pricing</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Press</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Support</h4>
+                    <ul>
+                        <li><a href="#">Documentation</a></li>
+                        <li><a href="#">API Reference</a></li>
+                        <li><a href="#">Help Center</a></li>
+                        <li><a href="#">Status Page</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 PayDaily. All rights reserved. | <a href="privacy.html"> Privacy Policy </a>|<a href="T&S.html"> Terms of Service</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
